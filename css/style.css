@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonte_bold';
+    src: url(../fonts/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fonte';
+    src: url(../fonts/champagne_limousines/Champagne\ &\ Limousines.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #e7dfd9;}
+h1{
+    font-family: 'fonte_bold';
+    font-size: 366%;
+}
+
+#direitaesquerda{
+    font-family: 'fonte';
+    display: flex;
+    padding: 20px 20px;
+}
+
+#caixa{
+    border: black solid 2px;
+    height: 470px;
+    width: 1000px;
+    margin: 30px auto;
+}
+#espaco{
+    height: 433px;
+    width: 280px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 180px;
+}
+nav a{
+    font-family: 'fonte';
+    text-decoration: none;
+    color: black;
+    font-size: 180%;
+}
+
+.titulos{
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+.paragrafos{
+    margin: auto;
+    height: 470px;
+    width: 1000px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
